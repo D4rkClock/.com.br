@@ -91,14 +91,18 @@ function diminuirdecoracao() {
 function aumentarplanta() {
     planta.style.height = "170px"
     planta.style.width = "170px"
-    paragrafoplanta.style.visibility = 
+    paragrafoplanta.style.visibility = "visible"
     paragrafoplanta.style.borderRadius = "10px"
 }
 
 function diminuirplanta() {
-
+planta.style.height = "150px"
+planta.style.width = "150px"
+paragrafoplanta.style.visibility = "hidden"
+paragrafoplanta.style.borderRadius = "10px"
 }
 
 function entrarfiltro() {
     window.location.href = "aquarifiltro.html";
+
 }
