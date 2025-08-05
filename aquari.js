@@ -99,10 +99,11 @@ function diminuirplanta() {
 planta.style.height = "150px"
 planta.style.width = "150px"
 paragrafoplanta.style.visibility = "hidden"
-paragrafoplanta.style.borderRadius = "10px"
+paragrafoplanta.style.borderRadius = "100px"
 }
 
 function entrarfiltro() {
     window.location.href = "aquarifiltro.html";
 
 }
+
